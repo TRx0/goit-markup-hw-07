@@ -1,0 +1,21 @@
+@import "./reset";
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  
+  .header{
+    padding-top: 25px ;
+    padding-bottom: 25px;
+  }
+  .our-job{
+    padding-bottom: 94px;
+  }
+  .socials{
+    display: flex;
+    justify-content: center;
+  }
