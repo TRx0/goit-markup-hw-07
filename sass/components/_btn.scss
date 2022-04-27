@@ -34,7 +34,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 12px;
+    margin-left: auto;
+    margin-right: auto;
     
     width: 200px;
     height: 50px;
@@ -46,6 +47,9 @@
     font-size: 16px;
     line-height: 1.88;
     color: #fff;
+    @include mq(desktop){
+      margin-left: 12px;
+    }
   }
   .button__list{
     display: flex;

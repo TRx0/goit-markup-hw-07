@@ -1,3 +1,8 @@
+.our-job{
+  @media screen and(max-width:1199px) {
+    display: none;
+  }
+}
 .img__list {
     display: flex;
   }

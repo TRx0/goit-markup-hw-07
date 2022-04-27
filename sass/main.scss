@@ -2,8 +2,11 @@
 @import "./variables/variables";
 // base styles
 @import "./base/base";
+@import "./components/mixins";
 // components
 @import "./components/btn";
+@import "./components/menu-btn";
+@import "./components/mobile-menu";
 @import "./components/container";
 @import "./components/header";
 @import "./components/hero";
